@@ -25,7 +25,7 @@ O código JavaScript contém várias funções que controlam a lógica do jogo. 
 
 2. Função `queroJogar()`: Esta função é chamada quando o jogador decide jogar. Ela gera uma cartela de números aleatórios e armazena esses valores em uma matriz (`cartela`).
 
-````javascript
+    ````javascript
       function queroJogar() {
         board = document.getElementById("board")
         cartela = []
@@ -35,17 +35,18 @@ O código JavaScript contém várias funções que controlam a lógica do jogo. 
         ...
       }
 
-
 A linha `const numb = new Set()` cria um conjunto para garantir que não haja números duplicados na cartela. O loop `for` gera números aleatórios entre `min` e `max` e verifica se já foram gerados, garantindo a exclusividade.
 
 3.Função `escolheValorAleatorio()`: Esta função seleciona aleatoriamente um número da segunda cartela que o jogador precisa adivinhar.
 
- ````javascript
-function escolheValorAleatorio() {
-    const indiceAleatorio = Math.floor(Math.random() * 4);
-    const valorAleatorio = cartela2[indiceAleatorio][Math.floor(Math.random() * 4)];
-    valorEscolhido = valorAleatorio;
-}
+    ````javascript
+    function escolheValorAleatorio() {
+        const indiceAleatorio = Math.floor(Math.random() * 4);
+        const valorAleatorio = cartela2[indiceAleatorio][Math.floor(Math.random() * 4)];
+        valorEscolhido = valorAleatorio;
+    }
+
+Aqui, `Math.random()` é usado para gerar um índice aleatório para escolher um número da matriz `cartela2`.
 
 
 
