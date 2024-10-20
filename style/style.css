@@ -1,0 +1,12 @@
+.container{
+    margin-top: 25px;
+    height: 70em;
+    text-align: center;
+    background-color: #6694df;
+}
+#botao{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
