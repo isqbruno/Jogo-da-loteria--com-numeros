@@ -10,22 +10,6 @@ let resultado
 let figura1
 let figura2
 let botao
-/*
-function queroJogar()
-    {
-    tabuleiro = []
-    valor = 1
-    for(let i=0; i<3; i++){
-        tabuleiro[i] = [] // cria a linha
-        for(let j=0; j<3; j++){
-            tabuleiro[i][j] = valor // atribui o valor impar
-            valor += 2 // incrementa em 2 para o próximo número impar
-        }
-    }
-    console.table(tabuleiro)
-    exibir()
-    }
-*/
 function queroJogar()
 {
     // --> Aviso <--
