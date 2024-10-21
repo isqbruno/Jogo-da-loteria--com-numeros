@@ -21,6 +21,7 @@ A aplicação foi desenvolvida utilizando as seguintes tecnologias:
 - **HTML**: Para estruturar o layout da página e os elementos interativos do jogo.
 - **CSS**: Para estilizar a aparência da página, utilizando o Bootstrap para um design responsivo e moderno.
 - **JavaScript**: Para implementar a lógica do jogo e gerenciar a interação do usuário.
+- **Bootstrap**: Para um design responsivo e moderno, facilitando a criação de interfaces atraentes.
 
 ## 3. Explicações do Código JavaScript
 
