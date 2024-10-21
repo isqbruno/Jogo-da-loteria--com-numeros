@@ -71,7 +71,7 @@ A tabela é construída concatenando strings HTML dentro de um loop, onde cada n
 
 Esses trechos de código exemplificam como a lógica do jogo é implementada, permitindo que o jogador interaja com a aplicação e participe da "Loteria dos Números". O projeto não apenas proporciona entretenimento, mas também serve como uma plataforma para aplicar conhecimentos em lógica de programação, manipulação do DOM e interação com o usuário, contribuindo para o aprendizado prático e o desenvolvimento de habilidades essenciais na área de programação.
 
-# 4. Manual de Uso - Loteria dos Números
+## 4. Manual de Uso - Loteria dos Números
 ## Introdução
 O jogo "Loteria dos Números" é uma aplicação interativa que permite aos usuários tentar a sorte escolhendo números aleatórios. Este manual orienta sobre como usar a aplicação e explica as interações disponíveis.
 
